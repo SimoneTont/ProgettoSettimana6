@@ -2,5 +2,21 @@
 
 body
 {
-    background-color: gray;
+    background-color: black;
+}
+$logoheight: 6em;
+nav
+{
+    img:first-child
+    {
+        height: $logoheight;
+    }
+    #AvatarImg
+    {
+        height: ($logoheight/2);
+    }
+    input
+    {
+        display: none;
+    }
 }

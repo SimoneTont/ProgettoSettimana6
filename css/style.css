@@ -11856,5 +11856,15 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: gray;
+  background-color: black;
+}
+
+nav img:first-child {
+  height: 6em;
+}
+nav #AvatarImg {
+  height: 3em;
+}
+nav input {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
