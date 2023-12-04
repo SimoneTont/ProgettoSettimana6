@@ -11863,14 +11863,18 @@ body {
   background-color: black;
 }
 
-nav img:first-child {
+header img {
   height: 6em;
 }
-nav #AvatarImg {
+header #AvatarImg {
   height: 3em;
 }
-nav input {
+header nav input {
   display: none;
+}
+
+main #AvatarImg {
+  height: 9em;
 }
 
 .wrapper {

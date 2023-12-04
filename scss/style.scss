@@ -10,9 +10,9 @@ body
     background-color: black;
 }
 $logoheight: 6em;
-nav
+header
 {
-    img:first-child
+    img
     {
         height: $logoheight;
     }
@@ -20,12 +20,18 @@ nav
     {
         height: ($logoheight/2);
     }
-    input
+    nav input
     {
         display: none;
     }
 }
-
+main
+{
+    #AvatarImg
+    {
+        height: ($logoheight*1.5);
+    }
+}
 $itemGrow: 1.2;
 $duration: 250ms;
 
