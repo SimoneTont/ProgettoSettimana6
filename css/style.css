@@ -11854,4 +11854,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: gray;
 }/*# sourceMappingURL=style.css.map */
